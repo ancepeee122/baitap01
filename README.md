@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-<style>
-</style>
 <center>
 <h1>  <u> Trang Thông Tin Cá Nhân </u>  </h1>
 </center>
