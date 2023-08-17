@@ -27,7 +27,7 @@
     <td> 66 </td>
     <td> 0325426345 </td>
     <td> icandeptrai@gmail.com </td>
-    <td> <img src="img01.jpg" alt="Dinh The Vinh" width="290" height="400"> </td>
+    <td> <img src="IMG01.jpg" alt="Dinh The Vinh" width="290" height="400"> </td>
     <td> <a href="https://www.facebook.com/29forme" target="_blank">Dinh The Vinh </a></td>
 </tr>
         </table>
