@@ -1,4 +1,4 @@
-<!-- HTML HOME -->
+<!--> HTML HOME <-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
 <p>Dinh The Vinh .</p>
 </body>
 </html>
-<!-- HTML introduction-->
+<!--> HTML introduction <-->
 <!DOCTYPE html>
 <html>
 <body>
@@ -24,7 +24,7 @@
 <p> 2121050412 </p>
 </body>
 </html>
-<!--> HTML Attributes
+<!--> HTML Attributes <-->
 <!DOCTYPE html>
 <html>
 <body>
@@ -37,6 +37,20 @@
 
 </body>
 </html>
+<!--> HTML Headings <--> 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:50px;">Dinh The Vinh 2121050412</h1>
+
+<p>Dinh The Vinh Dinh The Vinh Dinh The Vinh Dinh The Vinh.</p>
+
+</body>
+</html>
+
+
+
 
 
 
