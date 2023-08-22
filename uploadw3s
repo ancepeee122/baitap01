@@ -61,6 +61,18 @@
 </body>
 </html>
 
+<!-- HTML Text Formatting -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><b>Dinh The Vinh</b></p>
+<p><i>Dinh The Vinh</i></p>
+<p>Dinh<sub> The </sub> Vinh <sup>2121050412</sup></p>
+
+</body>
+</html>
+
 
 
 
