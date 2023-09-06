@@ -2,30 +2,36 @@
 <html>
 <head>
 <style>
-p {outline-color:red;}
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
 
-p.dotted {outline-style: dotted;}
-p.dashed {outline-style: dashed;}
-p.solid {outline-style: solid;}
-p.double {outline-style: double;}
-p.groove {outline-style: groove;}
-p.ridge {outline-style: ridge;}
-p.inset {outline-style: inset;}
-p.outset {outline-style: outset;}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
 </style>
 </head>
 <body>
 
-<h2>The outline-style Property</h2>
-
-<p class="dotted">DinhTheVinh</p>
-<p class="dashed">DinhTheVinh</p>
-<p class="solid">DinhTheVinh</p>
-<p class="double">DinhTheVinh</p>
-<p class="groove">DinhTheVinh.</p>
-<p class="ridge">DinhTheVinh. The effect depends on the outline-color value.</p>
-<p class="inset">DinhTHeVinh. The effect depends on the outline-color value.</p>
-<p class="outset">An outset outline. The effect depends on the outline-color value.</p>
+<div>
+  <h1>dinh the vinh</h1>
+  <p>DinhTHe Vinh hhahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ
+  <a target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p>
+</div>
 
 </body>
 </html>
