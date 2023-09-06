@@ -2,21 +2,30 @@
 <html>
 <head>
 <style>
-div {
-  border: 1px solid black;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-  background-color: lightblue;
-}
+p {outline-color:red;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
 </style>
 </head>
 <body>
 
-<h2>Dinh The Vinh</h2>
+<h2>The outline-style Property</h2>
 
-<div>Dinh The Vinh.</div>
+<p class="dotted">DinhTheVinh</p>
+<p class="dashed">DinhTheVinh</p>
+<p class="solid">DinhTheVinh</p>
+<p class="double">DinhTheVinh</p>
+<p class="groove">DinhTheVinh.</p>
+<p class="ridge">DinhTheVinh. The effect depends on the outline-color value.</p>
+<p class="inset">DinhTHeVinh. The effect depends on the outline-color value.</p>
+<p class="outset">An outset outline. The effect depends on the outline-color value.</p>
 
 </body>
 </html>
