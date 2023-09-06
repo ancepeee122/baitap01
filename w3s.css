@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="mystyle.css">
+<style>
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+</style>
 </head>
 <body>
 
-<h1>Dinh The Vinh</h1>
-<p>Dinh The Vinh </p>
+<h1>Dinh The Vinh </h1>
+<div>
+Dinh The Vinh.
+<p>This paragraph has its own background color.</p>
+We are still in the div element.
+</div>
 
 </body>
 </html>
