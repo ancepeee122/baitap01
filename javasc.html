@@ -1,24 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
     <head>
         <script>
-            let counter = 0
-            function count()
-            {
+             document.addEventListener('DOMContentLoaded', function()
+             {
+                document.querySelector('button').onclick = count;
+             });
+             let count = 0;
+
+             function count(){
                 counter++;
                 document.querySelector('#counter').innerHTML = counter;
-                if (counter % 10 ==0)
-                {
-                    alert('Counter is at ${counter}!');
+                if ( counter % 10 ==0){
+                    alert('Couter is at ${counter}!');
                 }
-
-            }
+             }
         </script>
-        <title> Dinh The Vinh- 2121050412</title>
+        <title> Dinh The Vinh</title>
 
     </head>
     <body>
-        <h1 id="counter"> 0</h1>
-        <button onclick="hello()"> Click here!</button>
+        <h1 id="counter">0</h1>
+        ><button>Click here!</button>
     </body>
 </html>
