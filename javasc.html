@@ -2,9 +2,11 @@
 <html>
     <head>
         <script>
-            function hello()
+            let counter = 0
+            function count()
             {
-                document.querySelector('h1').innerHTML = ' 2nd JavaScript!';
+                counter++;
+                document.querySelector('#counter').innerHTML = counter;
 
             }
         </script>
@@ -12,7 +14,7 @@
 
     </head>
     <body>
-        <h1> Dinh The Vinh</h1>
+        <h1 id="counter"> 0</h1>
         <button onclick="hello()"> Click here!</button>
     </body>
 </html>
