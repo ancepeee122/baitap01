@@ -5,18 +5,16 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("p").hide("slow", function(){
-      alert("The paragraph is now hidden");
-    });
+    $("#p1").css("color", "blue").slideUp(2000).slideDown(2000);
   });
 });
 </script>
 </head>
 <body>
 
-<button>Hide</button>
+<p id="p1">DinhTheVinh 2121050412!!</p>
 
-<p>This is a paragraph with little content.</p>
+<button>Click me</button>
 
 </body>
 </html>
