@@ -5,33 +5,20 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("h1, h2, p").addClass("blue");
-    $("div").addClass("important");
+    alert("Background color = " + $("p").css("background-color"));
   });
 });
 </script>
-<style>
-.important {
-  font-weight: bold;
-  font-size: xx-large;
-}
-
-.blue {
-  color: blue;
-}
-</style>
 </head>
 <body>
 
-<h1>Dinh The Vinh</h1>
-<h2>Dinh The Vinh</h2>
+<h2>This is a heading</h2>
 
-<p>2121050412</p>
-<p>2121050412</p>
+<p style="background-color:#ff0000">Dinh The Vinh.</p>
+<p style="background-color:#00ff00">Dinh The Vinh</p>
+<p style="background-color:#0000ff">Dinh THe vinh 2121050412.</p>
 
-<div>Dinh The Vinh</div><br>
-
-<button>Add classes to elements</button>
+<button>Return background-color of p</button>
 
 </body>
 </html>
