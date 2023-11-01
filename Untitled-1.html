@@ -5,21 +5,33 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("#div1").remove();
+    $("h1, h2, p").addClass("blue");
+    $("div").addClass("important");
   });
 });
 </script>
+<style>
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  color: blue;
+}
+</style>
 </head>
 <body>
 
-<div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
-Dinh The Vinh .</p>
-<p>Dinh The Vinh.</p>
+<h1>Dinh The Vinh</h1>
+<h2>Dinh The Vinh</h2>
 
-</div>
-<br>
+<p>2121050412</p>
+<p>2121050412</p>
 
-<button>Remove div element</button>
+<div>Dinh The Vinh</div><br>
+
+<button>Add classes to elements</button>
 
 </body>
 </html>
