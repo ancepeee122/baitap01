@@ -1,9 +1,11 @@
 <?php
-$longacccount = 10.000.000;
-// Dinh The Vinh 2121050412
-echo"số tiền trong tai khoang long là : $longacccount ";
-$humgpay = 10.000.000;
-echo"humg chuyển tiền : $humgpay";
-$longacccount = $longacccount+$humgpay;
-echo"số tiền trong tài khoản long : $longacccount";
-?>
+$Subject = " Lap Trinh Ung Dung Web";
+$unversityName = "HUMG";
+$firstNumber = 2;
+$secondtNumber = 2;
+
+echo "Hoc". $Subject . ' o phong 502 tai truong' . $unversityName ."<br>";
+echo "Hoc $Subject o phong 502 tai truong $unversityName  <br>";
+echo " <h1> $unversityName </h1>";
+echo $firstNumber + $secondtNumber;
+//Dinh The Vinh 2121050412
