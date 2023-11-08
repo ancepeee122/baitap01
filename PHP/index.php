@@ -1,11 +1,19 @@
-<?php
-$Subject = " Lap Trinh Ung Dung Web";
-$unversityName = "HUMG";
-$firstNumber = 2;
-$secondtNumber = 2;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="7-CalResult.php" method="get">
+        <p> First Number: </p>
+        <input type="number" name="firstNumber"><br>
+        <p> Second Number: </p>
+        <input type="number" name="secondNumbe"><br>
+        <p></p>
+        <input type="Submit" value="ADD">
+    </form>
 
-echo "Hoc". $Subject . ' o phong 502 tai truong' . $unversityName ."<br>";
-echo "Hoc $Subject o phong 502 tai truong $unversityName  <br>";
-echo " <h1> $unversityName </h1>";
-echo $firstNumber + $secondtNumber;
-//Dinh The Vinh 2121050412
+</body>
+</html>
