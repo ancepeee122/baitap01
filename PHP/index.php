@@ -6,14 +6,22 @@
     <title></title>
 </head>
    <body> 
-     <form action="5-formGet.php" method="get">
-        <p>Name: </p>
-        <input type ="text" name ="name"><br>
-        <p>E-mail: </p>
-        <input type="text" name="email"><br>
-        <p></p>
-        <input type="submit">
-        <!-- DinhTheVinh 2121050412 -->
-     </from>
+     <?php 
+       $T = True;
+       $F = False;
+       echo "T = $T <br>";
+       echo "F= $F <br>";
+
+       $check1 = 10 >5
+       $check2 = 20 < 10;
+       $check3 = $check1 && $check2;
+       $check4 = $check1 || $check2;
+       echo "check1 = $check1 <br>";
+       echo "check2 = $check2 <br>";
+       echo "check3 = $check3 <br>";
+       echo "check4 = $check4";
+       ?>
+</html>
    </body>
 </html>
+<!-- DinhTheVinh 2121050412 -->
