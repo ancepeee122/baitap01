@@ -20,9 +20,9 @@ if ($result->num_rows > 0)
         {
             echo '<tr class='even'><td>' $row['id']. '</td>'
         }
-        echo '<td> '. $row['Origin']. '</td>'
-        echo '<td> '. $row['Destination']. '</td>'
-        echo '<td> '. $row['Duration']. '</td>'
+        echo '<td>'. $row['Origin']. '</td>'
+        echo '<td>'. $row['Destination']. '</td>'
+        echo '<td>'. $row['Duration']. '</td>'
       }
 }
 else{

@@ -1,13 +1,22 @@
 <?php
 require "connect.php";
-$sql = " INSERT INTO flights ( Origin, Destination, Duration) VALUES ("Ha Noi", "Paris", "4000");
-if ($conn->query($sql === TRUE)
+$sql = "SELECT * FROM flights";
+$result = $conn->query($sql);
+if ($result->num_rows > 0)
 {
-  echo "New flights create successfully";
+  while($row = $result->fecth_assoc())
+
+  {
+    echo "FlightID:" . $row["id"].
+         "Origin :" . $row["origin"].
+         "Destination:" . $row["destination"].
+         "Duration:" . $row["duration"]. "<br>";
+
+  }
 }
-else 
-{
-  echo "Error: " . $sql . "<br>" . $conn->error;
+else {
+  echo "No flight in database";
+
 }
 $conn->close();
 ?>
